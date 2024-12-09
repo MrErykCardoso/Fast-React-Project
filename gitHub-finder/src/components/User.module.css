@@ -6,13 +6,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.2rem;
+  gap: 2rem;
 }
 
 .user img {
   width: 140px;
   height: 140px;
-  border: 4px solid #5000ff;
+  border: 4px solid rgb(0, 139, 139);
   border-radius: 50%;
 }
 
@@ -29,4 +29,33 @@
 
 .location span {
   color: #9da59d;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.stats {
+  background-color: #5000ff;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.divisor {
+  height: 70px;
+  width: 1px;
+  background-color: #9da59d;
+}
+
+.linkto {
+  background-color: rgb(0, 139, 139);
+  width: 60%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }

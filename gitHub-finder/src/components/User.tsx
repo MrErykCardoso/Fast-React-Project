@@ -20,15 +20,20 @@ const User = ({
           <span>{location}</span>
         </p>
       )}
-      <div>
-        <p className={classes.followers}>Seguidores:</p>
-        <p>{followers}</p>
+      <div className={classes.status}>
+        <div className={classes.stats}>
+          <p>Seguidores:</p>
+          <p>{followers}</p>
+        </div>
+        <div className={classes.divisor}></div>
+        <div className={classes.stats}>
+          <p>Seguindo:</p>
+          <p>{following}</p>
+        </div>
       </div>
-      <div>
-        <p className={classes.following}>Seguindo:</p>
-        <p>{following}</p>
-      </div>
-      <Link to={`/repos/${login}`}>Ver melhores projetos</Link>
+      <Link className={classes.linkto} to={`https://github.com/${login}`}>
+        Acessar perfil no GitHub
+      </Link>
     </div>
   );
 };
