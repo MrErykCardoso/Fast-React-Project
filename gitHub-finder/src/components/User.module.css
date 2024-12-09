@@ -1,0 +1,32 @@
+.user {
+  background-color: #2b3566;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.user img {
+  width: 140px;
+  height: 140px;
+  border: 4px solid #5000ff;
+  border-radius: 50%;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.location svg {
+  fill: red;
+  font-size: 1.5rem;
+}
+
+.location span {
+  color: #9da59d;
+}
